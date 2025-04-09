@@ -3,4 +3,4 @@ matplotlib
 mysql-connector-python
 apscheduler
 pandas
-gunicorn = 19.7.1
+gunicorn == 19.7.1
