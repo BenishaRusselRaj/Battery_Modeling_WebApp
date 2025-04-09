@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = 'en', dir = 'ltr'>
+    <head>
+        <meta charset = 'utf-8'>
+        <title>Lithium-ion Battery Modeling</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+    <div class = 'Container'>
+        <section class = "Title_Section">
+            <h1>Real-time monitoring and predictive analysis of Li-ion battery</h1>
+        </section>
+
+        <section class = "Intro">
+            <p><br>Modules built using LFP cells are used in this test. These cells operate at a voltage range of 2.5V to 3.6V.</p>
+            <!-- <p>Checkcheck</p> -->
+        </section>
+
+        <section class = "Plot_Section-1">
+            <img src="{{ url_for('static', filename='cellV_plot.png') }}?v={{ config['RANDOM'] }}">
+        </section>
+        
+        <section class = "Plot_Section-2"> 
+            <img src="{{ url_for('static', filename='meanV_plot.png') }}?v={{ config['RANDOM'] }}">
+        </section>
+
+        <section class = "Plot_Section-3"> 
+            <img src="{{ url_for('static', filename='maxV_plot.png') }}?v={{ config['RANDOM'] }}">
+        </section>
+        
+        <section class = "Plot_Section-4"> 
+            <img src="{{ url_for('static', filename='minV_plot.png') }}?v={{ config['RANDOM'] }}">
+        </section>
+    </div>
+
+    </body>
+</html>

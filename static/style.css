@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin:0;
+    background-color:antiquewhite ;
+}
+
+/* header{
+    height:45px;
+} */
+
+section{
+    /* height: 100vh; */
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.Title_Section h1{
+    font-size:43px;
+    color:navy;
+}
+
+.Intro p{
+    font-size: 20px;
+    color: navy;
+}
+
+.Plot_Section h2{
+    font-size: 30px;
+    color: navy;
+}
+
+.Plot_Section-1 img{
+    height:500px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+.Plot_Section-2 img{
+    height:500px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.Plot_Section-3 img{
+    height:500px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.Plot_Section-4 img{
+    height:500px;
+    width: 700px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+/* .Container img{
+    height: 500px;
+    width: 700px;
+    align-items: center;
+}
+
+.Container h2{
+    margin-top: 10%;
+}
+
+p {
+    font-size: 20px;
+} */
+
