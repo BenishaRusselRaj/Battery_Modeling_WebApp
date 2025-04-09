@@ -1,5 +1,5 @@
 Flask
 matplotlib
 mysql-connector-python
-apscheduler
+APScheduler
 pandas
